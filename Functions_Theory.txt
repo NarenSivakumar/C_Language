@@ -1,0 +1,42 @@
+C program has two types of functions:
+1. Library functions 
+2. User - defined functions
+-------------------------------------
+User - defined functions 
+1. Function declaration 
+2. Function definition 
+3. Function call
+------------------------------------
+Function definition:
+*****
+Prototype: return_type func_name[type arg1, typearg2,..]
+{
+local varibles declaration;
+
+statement;
+--
+return(expression
+}
+******
+-------------------------------------
+return statement usage:
+i. return; // it's used to terminate the function without returning any value.
+ii. retur(expression]; // With value.
+--------------------------------------
+Actual and Formal arguments:
+
+Actual Arguments:
+--> Actual arguments can be written in the form of variables, constants or expressions or any func call that returns a value.
+ex: 1. fun(x];
+2. fun(a*b, c*d+k];
+
+Formal arguments:
+The name of the arguments, which are mentioned in the function definition are called formal or dummy arguments.
+since they are used to just to hold the values that are sent by the calling the function.
+--------------------------------------------
+Types of functions:
+1. Functions with no argument and no return type.
+2. With argument, no return type.
+3. No argument, with return type.
+4. with argument , with return type.
+---------------------------------------
